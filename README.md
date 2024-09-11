@@ -16,7 +16,7 @@
 You can install the File Organizer tool via PyPI. To install, run:
 
 ```bash
-pip install fileOrganizer
+pip install SmartFileOrganizer
 ```
 
 ## Usage
@@ -28,13 +28,13 @@ The tool provides various commands and flags to manage your files:
 To organize files by type or date:
 
 ```bash
-organize --path /your/directory --sort-by type
+organize --path /your/directory --by type
 ```
 
 Or
 
 ```bash
-organize --path /your/directory --sort-by date
+organize --path /your/directory --by date
 ```
 
 ### Undo Operations
@@ -52,7 +52,7 @@ This will revert the files back to their original locations and remove empty dir
 If you want to test the organization without making any changes, use the `--dry-run` flag:
 
 ```bash
-organize --path /your/directory --sort-by type --dry-run
+organize --path /your/directory --by type --dry-run
 ```
 
 This will show you the moves that would be made without actually performing them.
@@ -60,7 +60,7 @@ This will show you the moves that would be made without actually performing them
 ## Flags
 
 - `--path`: Specify the directory to organize.
-- `--sort-by`: Choose between `type` or `date` to sort files by their file type or creation date.
+- `--by`: Choose between `type` or `date` to sort files by their file type or creation date.
 - `--dry-run`: Run the command without making any changes (for preview purposes).
 - `--undo`: Revert all previous operations and restore files to their original locations.
 
