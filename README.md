@@ -67,4 +67,3 @@ This command will show you the moves that would be made without actually perform
 - `--by`: Choose between `type` or `date` to sort files by their file type or creation date.
 - `--dry-run`: Run the command without making any changes (for preview purposes).
 - `--undo`: Revert all previous operations and restore files to their original locations.
-```
