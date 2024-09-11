@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+SmartFileOrganizer.egg-info/PKG-INFO
+SmartFileOrganizer.egg-info/SOURCES.txt
+SmartFileOrganizer.egg-info/dependency_links.txt
+SmartFileOrganizer.egg-info/entry_points.txt
+SmartFileOrganizer.egg-info/requires.txt
+SmartFileOrganizer.egg-info/top_level.txt
+file_organizer/__init__.py
+file_organizer/cli.py
+file_organizer/organizer.py
+file_organizer/undo.py

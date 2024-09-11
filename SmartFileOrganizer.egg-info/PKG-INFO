@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: SmartFileOrganizer
+Version: 0.0.1
+Summary: A CLI tool to organize files in directories by type or date.
+Author: Gojo
+License-File: LICENSE.txt
